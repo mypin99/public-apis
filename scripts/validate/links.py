@@ -256,7 +256,7 @@ if __name__ == '__main__':
     num_args = len(sys.argv)
     only_duplicate_links_checker = False
 
-    if num_args < 2:
+    if num_args < 4:
         print('No .md file passed')
         sys.exit(1)
     elif num_args == 3:
